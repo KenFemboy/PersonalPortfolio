@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "Indie Flower";
+  src: url(../fonts/indie_flower.ttf);
+}
+@font-face {
+  font-family: "Lemon";
+  src: url(../fonts/lemon.ttf);
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-weight: normal;
+  src: url(../fonts/montserrat_alternates_regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-weight: bold;
+  src: url(../fonts/montserrat_alternates_bold.ttf);
+}
+@font-face {
+  font-family: "Pacifico";
+  src: url(../fonts/pacifico.ttf);
+}
+@font-face {
+  font-family: "Pinyon Script";
+  src: url(../fonts/pinyon_script.ttf);
+}
+@font-face {
+  font-family: "Raleway";
+    src: url(../fonts/raleway.ttf);
+}
+#carousel_container {
+  display: flex;
+  justify-content: center;
+  height: 610px;
+  position: relative;
+  overflow: hidden;
+}
+.carousel_container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  max-width: 1000px;
+}
+.carousel_slide {
+  position: absolute;
+  height: 352px;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.5s ease;
+}
+.carousel_slide:first-of-type {
+  transform: translateX(-200%);
+}
+.carousel_slide:nth-of-type(2) {
+  transform: translateX(-100%);
+}
+.carousel_slide:nth-of-type(3) {
+  transform: translateX(0%);
+}
+.carousel_slide:nth-of-type(4) {
+  transform: translateX(100%);
+}
+.carousel_slide:nth-of-type(5) {
+  transform: translateX(200%);
+}
+.carousel_slide:nth-of-type(6) {
+  transform: translateX(300%);
+}
+.carousel_slide:not(:nth-of-type(3)) {
+  filter: grayscale(100%);
+}
+#carousel_overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #03893d;
+  padding: 50px calc((100% - 296px) / 2);
+  box-sizing: border-box;
+  width: 100%;
+}
+#carousel_overlay > * {
+  display: block;
+}
+#carousel_highlight {
+  position: absolute;
+  font-size: 50px;
+  transition: opacity 0.25s ease;
+  max-width: 296px;
+}
+#carousel_button {
+  margin-top: 127px;
+  transition: margin-top 0.25s ease;
+}
+#carousel_overlay a {
+  display: inline-block;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  color: inherit;
+  transition: 0.25s ease;
+}
+#carousel_overlay a:hover, #carousel_overlay a:focus {
+  background-color: #ffffff;
+  color: #03893d;
+}
+
+
+#test_div {
+  background-color: red;
+  height: 68px;
+  width: 100%;
+}
+
+
+.highlight_style_0 {
+  font-family: "Pacifico";
+  top: 64px;
+}
+.highlight_style_1 {
+  font-family: "Lemon";
+  top: 78px;
+}
+.highlight_style_2 {
+  font-family: "Pinyon Script";
+  top: 87px;
+}
+.highlight_style_3 {
+  font-family: "Indie Flower";
+  top: 79px;
+}
+.highlight_style_4 {
+  font-family: "Raleway";
+  top: 83px;
+}
+.highlight_style_5 {
+  font-family: "Montserrat Alternates";
+  top: 74px;
+}
+.content_block {
+  padding: 50px;
+}
+#services {
+  scroll-margin-top: 70px;
+  background-color: #eceeef;
+}
+#services h2 {
+  font-family: "Righteous";
+  font-weight: normal;
+  color: #027d37;
+  margin: 0px;
+}
+#services_list {
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(0, 1fr);
+}
+#services_list div {
+  
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #03893d;
+}
+
+
+#services_list div img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+#services_list div span {
+  display: block;
+  padding: 20px;
+  font: 20px "Righteous";
+  color: #ffffff;
+}
+@media only screen and (min-width: 397px) {
+  #carousel_overlay {
+    padding: 50px;
+    width: 396px;
+    left: calc((100% - 396px) / 2);
+  }
+  .carousel_slide {
+    height: 481px;
+  }
+}
+@media only screen and (min-width: 496px) {
+  #carousel_overlay {
+    left: 50px;
+  }
+}
+@media only screen and (min-width: 544px) {
+  #carousel_overlay {
+    width: 444px;
+  }
+  #carousel_highlight {
+    max-width: unset;
+  }
+  #carousel_button {
+    margin-top: 80px;
+  }
+  .highlight_style_5 {
+    top: 82px;
+  }
+}
+@media only screen and (min-width: 720px) {
+  #services_list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media only screen and (min-width: 801px) {
+  #carousel_overlay {
+    padding: 50px;
+  }
+  #services {
+    scroll-margin-top: 80px;
+  }
+  #services_list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media only screen and (min-width: 820px) {
+  #services_list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media only screen and (min-width: 888px) {
+  #carousel_overlay {
+    bottom: 50px;
+  }
+  .carousel_slide {
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  #services_list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media only screen and (min-width: 1460px) {
+  #services_list {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media only screen and (min-width: 1780px) {
+  #services_list {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+@media only screen and (min-width: 2100px) {
+  #services_list {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}

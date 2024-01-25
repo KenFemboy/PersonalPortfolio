@@ -1,0 +1,816 @@
+/*title*/
+.aboutus_history{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),url('../img/history_collage_title_background.png');
+  background-size: 100% auto;
+  border-top: 100px;
+}
+.aboutus_mvc{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),url('../img/mvc_title_background.jpg');
+  background-size: 100% auto;
+  border-top: 100px;
+}
+.aboutus_governance{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),url('../img/government_title_background.jpg');
+  background-size: 100% auto;
+  border-top: 100px;
+}
+.aboutus_profile{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),url('../img/profile_title_background.jpg');
+  background-size: 100% auto;
+  border-top: 100px;
+}
+#aboutus-title{
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  padding-top: 150px;
+  margin: 0px 0px;
+}
+#aboutus-quote{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+@media (max-width: 800px){
+  .aboutus{
+  border-top: 70px;
+  }
+  #aboutus-title{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding-top: 100px;
+  margin: 0px 0px;
+  }
+  #aboutus-quote{
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  }
+}
+@media (max-width: 500px){
+  .aboutus{
+  border-top: 50px;
+  }
+  #aboutus-title{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 60px;
+  margin: 0px 0px;
+  }
+  #aboutus-quote{
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  }
+}
+/*Profile*/
+table, td {
+      border: 2px solid #058a42;
+      border-collapse: collapse;
+    }
+table{
+  width: 50%;
+}
+td{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.profile{
+  color: black; 
+}
+#profile_title{
+  color: red;
+  text-align: center;
+}
+#info{
+  border-left: 1px solid darkgoldenrod;
+}
+#location{
+  width: 50%;
+  height: auto;
+  float: right;
+  margin: 20px;
+  border: 1px solid forestgreen;
+}
+.map{
+  border:0; 
+  float: right; 
+  width: 50%; 
+  height: 898px;
+}
+@media(max-width:1186px){
+  .map{
+    height: 920px;
+  }
+}
+@media(max-width:1173px){
+  .map{
+    height: 945px;
+  }
+}
+@media(max-width:1145px){
+  .map{
+    height: 968px;
+  }
+}
+@media(max-width:1054px){
+  .map{
+    height: 989px;
+  }
+}
+@media(max-width:1029px){
+  .map{
+    height: 1014px;
+  }
+}
+@media(max-width:1025px){
+  .map{
+    height: 1035px;
+  }
+}
+@media(max-width:1029px){
+  .map{
+    height: 1014px;
+  }
+}
+@media(max-width: 990px){
+  .map{
+    display: none;
+  }
+  table{
+    width: 100%;
+  }
+}
+@media(max-width: 487px){
+  table{
+    width: 100%;
+  }
+  .profile{
+    font-size: 10pt;
+  }
+}
+@media(max-width: 404px){
+  table{
+    width: 100%;
+  }
+  .profile{
+    font-size: 8pt;
+  }
+}
+@media(max-width: 374px){
+  table{
+    width: 100%;
+  }
+  .profile{
+    font-size: 7pt;
+  }
+}
+/*Vission, Mission, and Values*/
+.mvv-row{
+  display:flex;
+  justify-content:flex-start;
+  align-items:stretch;
+  flex-wrap:nowrap;
+  padding:30px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 40px;
+}
+.mvv-cell{
+  min-height:75px;
+  flex-grow:1;
+  flex-basis:100%;
+  padding: 40px;
+}
+#mvc-title{
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: black;
+}
+#line{
+  width: 50%;
+}
+#mission_logo{
+  color:black;
+  width:90%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#vision_logo{
+  color:black;
+  width:90%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#values_logo{
+  color:black;
+  width:90%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#mission_title{
+  padding:10px;
+  text-align:center;
+  font-size:50px;
+  margin: 0px;
+  color: #0c8343;
+  background-color: yellow;
+}
+#vision_title{
+  padding:10px;
+  text-align:center;
+  font-size:50px;
+  margin: 0px;
+  color: #0c8343;
+  background-color: yellow;
+}
+#values_title{
+  padding:10px;
+  text-align:center;
+  font-size:50px;
+  margin: 0px;
+  color: #0c8343;
+  background-color: yellow;
+}
+#mission_p{
+  padding:10px;
+  font-size:22px;
+  color: black;
+  padding: 15px;
+}
+#vision_p{
+  padding:10px;
+  font-size:30px;
+  color: black;
+}
+#values_p{
+  padding:10px;
+  font-size:28px;
+  color: black;
+}
+@media (max-width: 1340px){
+  .mvv-row{
+    flex-wrap:wrap;
+  }
+  #mission_logo{
+    float: right;
+    width:30%;
+  }
+  #vision_logo{
+    float: right;
+    width:30%;
+  }
+  #values_logo{
+    float: right;
+    width:30%;
+  }
+  #mission_title{
+    text-align:left;
+  }
+  #vision_title{
+    text-align:left;
+  }
+  #values_title{
+    text-align:left;
+  }
+  #mission_p{
+    font-size: 28px;
+  }
+  .mvv-cell{
+    box-shadow: 5px 10px 18px #888888;
+  }
+}
+@media (max-width:610px){
+  #mission_logo{
+    display: none;
+  }
+  #vision_logo{
+    display: none;
+  }
+  #values_logo{
+    display: none;
+  }
+}
+/*History*/
+font{
+  color: forestgreen;
+}
+p{
+  text-align: justify;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px;
+}
+#our-story{
+  padding-left: 35px;
+  font-size: 40px;
+  margin: 0px;
+}
+.tab {
+	display: inline-block;
+	margin-left: 40px;
+}
+.column {
+  float: left;
+}
+#picture_collage{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 20px;
+}
+#picture_collage_2{
+  width: 50%;
+  float: right;
+  padding-right:40px;
+  padding-top: 20px;
+}
+.column-history{
+  float: left;
+  width: 49%;
+}
+.row-history:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row-history{
+  padding-top: 30px;
+}
+#column-history1{
+  border-right: 1px solid forestgreen;
+}
+.core{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+@media only screen and (max-width: 801px){
+	main{
+		padding: 30px;
+	}
+  .column-history{
+    width: 100%;
+  }
+  #column-history1{
+  border-right: none;
+  }
+  #elt{
+    font-size: 25px;
+  }
+}
+/*LINE*/
+hr{
+	width: 100%;  
+	height: 2px;  
+	background-color: #018843; 
+
+}
+/*Governance*/
+#yellow{
+  background-color: #fdf003;
+}
+#green{
+  background-color: #018843;
+}
+.container-width{
+  width:100%;
+  max-width:1150px;
+  margin:0 auto;
+}
+.bdg-sect{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Helvetica, serif;
+}
+.bdg-title{
+  text-align:center;
+  font-size:2.5em;
+  color:#555555;
+  margin: 0px;
+  padding-top: 25px;
+}
+.badges{
+  padding:20px;
+  display:flex;
+  justify-content:space-around;
+  align-items:flex-start;
+  flex-wrap:wrap;
+}
+.badge{
+  width:350px;
+  font-family:Helvetica, serif;
+  background-color:white;
+  margin-bottom:30px;
+  box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.8);
+  border-radius:3px;
+  font-weight:100;
+  overflow:hidden;
+  text-align:center;
+}
+.badge-header{
+  height:115px;
+}
+.badge-name{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size:1.7em;
+  margin-bottom:5px;
+  color: black;
+}
+.badge-role{
+  color:black;
+  font-size:1.20em;
+}
+.badge-avatar{
+  width:200px;
+  height:200px;
+  border-radius:100%;
+  border:5px solid #fff;
+  box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  margin-top:-75px;
+  position:relative;
+}
+.badge-body{
+  margin:35px 10px;
+  
+}
+#elt{
+  margin: 0px;
+}
+/*GA*/
+#green{
+  background-color: #018843;
+}
+#yellow{
+  background-color: #fdf003;
+}
+#talisic-bd{
+  background-color: #fdf003;
+}
+#gulle-bd{
+  background-color: #018843;
+}
+#casaway-bd{
+  background-color: #fdf003;
+}
+#malbas-bd{
+  background-color: #018843;
+}
+#mendez-bd{
+  background-color: #fdf003;
+}
+#geocallo-bd{
+  background-color: #018843;
+}
+#adlawan-bd{
+  background-color: #018843;
+}
+#manla-s{
+  background-color: #fdf003;
+}
+#moncal-t{
+  background-color: #018843;
+}
+#caumag-ac{
+  background-color: #018843;
+}
+
+#calcaben-ac{
+  background-color: #fdf003;
+}
+#member-ac{
+  background-color: #018843;
+}
+#trinidad-ec{
+  background-color: #fdf003;
+}
+#sator-ec{
+  background-color: #018843;
+}
+#member-ec{
+  background-color: #fdf003;
+}
+#gulle-edcom{
+  background-color: #018843;
+}
+#aquino-edcom{
+  background-color: #018843;
+}
+#famador-edcom{
+  background-color: #018843;
+}
+#torculas-edcom{
+  background-color: #fdf003;
+}
+#quilario-mc{
+  background-color: #018843;
+}
+#eugenio-mc{
+  background-color: #fdf003;
+}
+#edosma-mc{
+  background-color: #fdf003;
+}
+#sinto-etc{
+  background-color: #018843;
+}
+#seismundo-etc{
+  background-color: #018843;
+}
+#araneta-etc{
+  background-color: #fdf003;
+}
+#banaga-gad{
+  background-color: #018843;
+}
+#agustin-gad{
+  background-color: #fdf003;
+}
+#rerora-gad{
+  background-color: #018843;
+}
+#malbas-gad{
+  background-color: #fdf003;
+}
+#batingal-gad{
+  background-color: #018843;
+}
+#geocallo-gad{
+  background-color: #fdf003;
+}
+#talisic-percom{
+  background-color: #018843;
+}
+#casaway-percom{
+  background-color: #fdf003;
+}
+#adlawan-percom{
+  background-color: #018843;
+}
+#rerora-percom{
+  background-color: #fdf003;
+}
+#manla-percom{
+  background-color: #018843;
+}
+#batingal-percom{
+  background-color: #fdf003;
+}
+
+/*Management & Staff*/
+#rerora-ms{
+  background-color: #fdf003;
+}
+#soriano-ms{
+  background-color: #018843;
+}
+#collector-ms{
+  background-color: #fdf003;
+}
+#clerk-ms{
+  background-color: #018843;
+}
+#marketing-ms{
+  background-color: #018843;
+}
+#gaveirez-ms{
+  background-color: #fdf003;
+}
+#batingal-ms{
+  background-color: #fdf003;
+}
+#rizaldo-ms{
+  background-color: #018843;
+}
+#montebon-ms{
+  background-color: #018843;
+}
+#licayan-ms{
+  background-color: #fdf003;
+}
+#proofreader-ms{
+  background-color: #018843;
+}
+#sepe-ms{
+  background-color: #018843;
+}
+#magalasin-ms{
+  background-color: #018843;
+}
+#crausos-ms{
+  background-color: #fdf003;
+}
+#barco-ms{
+  background-color: #018843;
+}
+#cabatingan-ms{
+  background-color: #fdf003;
+}
+#vallecer-ms{
+  background-color: #018843;
+}
+#villamor-ms{
+  background-color: #fdf003;
+}
+#suarez-ms{
+  background-color: #fdf003;
+}
+#roxas-ms{
+  background-color: #018843;
+}
+#abatayo-ms{
+  background-color: #018843;
+}
+#diez-ms{
+  background-color: #fdf003;
+}
+@keyframes fadeEffect{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+@media only screen and (max-width: 1189px){
+  #green{
+    background-color: #018843;
+  }
+  #yellow{
+    background-color: #fdf003;
+  }
+  #casaway-bd{
+  background-color: #018843;
+  }
+  #malbas-bd{
+  background-color: #fdf003;
+  }
+  #famador-edcom{
+  background-color: #fdf003;
+  }
+  #rerora-gad{
+  background-color: #fdf003;
+  }
+  #malbas-gad{
+  background-color: #018843;
+  }
+  #adlawan-percom{
+  background-color: #fdf003;
+  }
+  #rerora-percom{
+  background-color: #018843;
+  }
+  #barco-ms{
+  background-color: #fdf003;
+  }
+  #cabatingan-ms{
+  background-color: #018843;
+  }
+  #sepe-ms{
+  background-color: #018843;
+  }
+}
+
+@media only screen and (max-width: 839px){
+  #green{
+    background-color: #018843;
+  }
+  #yellow{
+    background-color: #fdf003;
+  }
+  #casaway-bd{
+    background-color: #fdf003;
+  }
+  #malbas-bd{
+    background-color: #018843;
+  }
+  #adlawan-bd{
+    background-color: #fdf003;
+  }
+  #manla-s{
+    background-color: #018843;
+  }
+  #moncal-t{
+    background-color: #fdf003;
+  }
+  #famador-edcom{
+    background-color: #018843;
+  }
+  #torculas-edcom{
+    background-color: #fdf003;
+  }
+  #rerora-gad{
+    background-color: #018843;
+  }
+  #malbas-gad{
+    background-color: #fdf003;
+  }
+  #adlawan-percom{
+    background-color: #018843;
+  }
+  #rerora-percom{
+    background-color: #fdf003;
+  }
+  #soriano-ms{
+    background-color: #018843;
+  }
+  #batingal-ms{
+    background-color: #018843;
+  }
+  #rizaldo-ms{
+    background-color: #fdf003;
+  }
+  #montebon-ms{
+    background-color: #018843;
+  }
+  #magalasin-ms{
+    background-color: #fdf003;
+  }
+  #crausos-ms{
+    background-color: #018843;
+  }
+  #barco-ms{
+    background-color: #fdf003;
+  }
+  #cabatingan-ms{
+    background-color: #018843;
+  }
+  #vallecer-ms{
+    background-color: #fdf003;
+  }
+  #villamor-ms{
+    background-color: #018843;
+  }
+  #suarez-ms{
+    background-color: #fdf003;
+  }
+  #abatayo-ms{
+    background-color: #fdf003;
+  }
+  #diez-ms{
+    background-color: #018843;
+  }
+  #our-story{
+    text-align: center;
+  }
+}
+/*affiliations*/
+.affiliation_profile{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),url('../img/affiliation_title_background.jpg');
+  background-size: 100% auto;
+  border-top: 100px;
+}
+#affiliation-title{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 40px;
+  margin: 0px 0px;
+}
+#affiliation-quote{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+.affiliations{
+  width: 70%;
+}
