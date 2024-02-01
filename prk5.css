@@ -58,6 +58,7 @@ body{
 .mainpage h1{
     text-align: center;
 }
+<<<<<<< Updated upstream
 .mainpage #content1 #project1img{
     width: 300px;
     height: 250px;
@@ -66,6 +67,13 @@ body{
 .mainpage #content1 #project1img:hover{
     content: url("DALDESCO\resources\img\carousel\slide_4.jpg") ;
     cursor: pointer;
+=======
+.mainpage #content1{
+    text-align: left;
+}
+.mainpage #content2{
+    text-align: right;
+>>>>>>> Stashed changes
 }
 footer{
     width: auto;
